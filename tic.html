@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="tic1.css">
+    <link rel="icon" href="hi.png">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body id="tac">
+    <div id="toe">
+    <h1 id="header" class="animate__animated animate__rubberBand"><u>Tic-Tac-Toe</u></h1>
+    <p id="para" class="hey">hey</p>
+    <div id="boo">
+        <div id="one" class="box">
+        <input type="text" class="tic" id="first" maxlength="1" onclick="func1();win();"  >
+        <input type="text" class="tic " id="second" maxlength="1" onclick="func2();win();"  readonly>
+        <input type="text" class="tic " id="third" maxlength="1" onclick="func3();win();" readonly ></div>
+        <div id="two" class="box">
+        <input type="text" class="tic" id="fourth" maxlength="1" onclick="func4();win();" readonly>
+        <input type="text" class="tic" id="fifth" maxlength="1" onclick="func5();win();" readonly>
+        <input type="text" class="tic" id="sixth" maxlength="1" onclick="func6();win();" readonly></div>
+        <div id="three" class="box">
+        <input type="text" class="tic" id="seventh" maxlength="1" onclick="func7();win();" readonly>
+        <input type="text" class="tic" id="eighth" maxlength="1" onclick="func8();win();" readonly>
+        <input type="text" class="tic" id="ninth" maxlength="1" onclick="func9();win();" readonly></div>
+     </div>
+    <br><br>
+    <div class="animate__animated animate__backInDown pop" id="alert">
+       
+    </div>
+    <div id="but" class=" animate__animated animate__bounceInDown" >
+        <a href="tic.html"> <input type="button" id="buton" value="Reset" onclick="func()"></a>
+    
+    </div>
+    
+</div>
+
+<script src="tic1.js"></script>
+</body>
+</html>

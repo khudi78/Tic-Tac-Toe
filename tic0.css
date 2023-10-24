@@ -1,0 +1,53 @@
+.play{
+    text-align:center;
+}
+#buton{
+    margin-left:650px;
+    height: 70px;
+    width:200px;
+    font-size:30px;
+    border-radius:2em;
+    margin-top:70px;
+    border:5px solid black;
+    
+}
+.fa-music{
+    color:white;
+    font-size: xxx-large;
+}
+.setting{
+    margin-bottom: 1px;
+    margin-left: 20px;
+}
+#gamename{
+    font-family:sans-serif;
+    font-size:100px;
+    margin-top:200px;
+    text-decoration: underline;
+    color:antiquewhite;
+    text-shadow:-8px 0 rgb(80, 152, 240);
+}
+p{
+    margin-top:100px ;
+    font-size:40px;
+    font-style:italic;
+   color: rgb(171, 204, 22);
+   text-shadow: 10px 10px 25px rgb(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(81,67,21),
+    10px -10px 25px rgb(81,67,21);
+}
+#buton:hover{
+   border:5px solid rgba(193, 186, 186, 0.349);
+   color:white;
+   background-color: black;
+   box-shadow:3px 3px 5px 2px rgba(193, 188, 188, 0.34); 
+}
+body{
+    background-image:url("https://cdn.wallpapersafari.com/43/73/ShixnH.jpg");
+    backdrop-filter: blur(2px);
+    background-blend-mode: darken;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
