@@ -1,9 +1,11 @@
 Tic Tac Toe Game
 
 Introduction
+
 This is a simple Tic Tac Toe game implemented in Html,CSS,Javascript. It allows two players to play the classic game of Tic Tac Toe against each other.
 
 Features
+
 Player vs Player mode
 Interactive gameplay
 Simple and easy-to-understand interface
