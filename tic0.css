@@ -1,16 +1,7 @@
 .play{
     text-align:center;
 }
-#buton{
-    margin-left:650px;
-    height: 70px;
-    width:200px;
-    font-size:30px;
-    border-radius:2em;
-    margin-top:70px;
-    border:5px solid black;
-    
-}
+
 .fa-music{
     color:white;
     font-size: xxx-large;
@@ -37,12 +28,7 @@ p{
     -10px -10px 25px rgb(81,67,21),
     10px -10px 25px rgb(81,67,21);
 }
-#buton:hover{
-   border:5px solid rgba(193, 186, 186, 0.349);
-   color:white;
-   background-color: black;
-   box-shadow:3px 3px 5px 2px rgba(193, 188, 188, 0.34); 
-}
+
 body{
     background-image:url("https://cdn.wallpapersafari.com/43/73/ShixnH.jpg");
     backdrop-filter: blur(2px);
@@ -50,4 +36,39 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     
+}
+#but{
+    display:flex;
+    justify-content:center;
+    height:45px;
+    border:2px solid white;
+    width:150px;
+    color:white;
+    border-radius: 7px;
+    background-color: black;
+    box-shadow:3px 3px 1px 1px rgb(167, 164, 164);
+    margin-top:120px;
+    margin-left:690px;
+    font-size: 25px;
+    padding-top: 10px;
+
+}
+#but:hover{
+    height:45px;
+    width:150px;
+    font-size: 15px;
+    border-radius:2em; 
+    background-color:black;
+    color:white;
+    font-size: 25px;
+    box-shadow:4px 4px 5px rgb(167, 163, 163);
+}
+
+#buton{
+    color:white;
+    font-size:25px;
+    background-color: black;
+    padding-top: 6px;
+    padding-left: 17px;
+    border: black;
 }

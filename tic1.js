@@ -1,7 +1,8 @@
 document.getElementById("para").innerHTML="Player X turn";
-let mySound = new Audio('Firework.mp3');
-let anotherone=new Audio('boo.mp3');
-
+let mySound = new Audio('./audios/Winning Sound Effect.mp3');
+let anotherone=new Audio('./audios/Mario lose sound effect (HD).mp3');
+let x=new Audio('./audios/x.mp3');
+let o=new Audio('./audios/O.mp3');
 
 
 let flag=1;
@@ -249,7 +250,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
             document.getElementById("para").innerText="Player X turn";}
             document.getElementById('first').value='X';
             document.getElementById('first').disabled=true;
-            
+            x.play();
             flag=0;win();
         }
         else
@@ -259,6 +260,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
          document.getElementById("para").innerText="Player X turn";}
             document.getElementById('first').value='O';
             document.getElementById('first').disabled=true;
+            o.play();
             flag=1;win();
         }
      }
@@ -270,6 +272,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('second').value='X';
             document.getElementById('second').disabled=true;
+            x.play();
             flag=0;win();
         }
         else
@@ -280,6 +283,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('second').value='O';
             document.getElementById('second').disabled=true;
+            o.play();
             flag=1;win();
         }
      }
@@ -291,6 +295,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('third').value='X';
             document.getElementById('third').disabled=true;
+            x.play();
             flag=0;win();
         }
         else
@@ -300,6 +305,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
          document.getElementById("para").innerText="Player X turn";}
             document.getElementById('third').value='O';
             document.getElementById('third').disabled=true;
+            o.play();
             flag=1;win();
         }
      }
@@ -311,6 +317,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('fourth').value='X';
             document.getElementById('fourth').disabled=true;
+            x.play();
             flag=0;
         }
         else
@@ -320,6 +327,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
          document.getElementById("para").innerText="Player X turn";}
             document.getElementById('fourth').value='O';
             document.getElementById('fourth').disabled=true;
+            o.play();
             flag=1;
         }
      }
@@ -331,6 +339,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('fifth').value='X';
             document.getElementById('fifth').disabled=true;
+            x.play();
             flag=0;
         }
         else
@@ -341,6 +350,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('fifth').value='O';
             document.getElementById('fifth').disabled=true;
+            o.play();
             flag=1;
         }
      }
@@ -352,6 +362,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('sixth').value='X';
             document.getElementById('sixth').disabled=true;
+            x.play();
             flag=0;
         }
         else
@@ -362,6 +373,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('sixth').value='O';
             document.getElementById('sixth').disabled=true;
+            o.play();
             flag=1;
         }
      }
@@ -373,6 +385,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('seventh').value='X';
             document.getElementById('seventh').disabled=true;
+            x.play();
             flag=0;
         }
         else
@@ -383,6 +396,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('seventh').value='O';
             document.getElementById('seventh').disabled=true;
+            o.play();
             flag=1;
         }
      }
@@ -394,6 +408,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('eighth').value='X';
             document.getElementById('eighth').disabled=true;
+            x.play();
             flag=0;
         }
         else
@@ -404,6 +419,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('eighth').value='O';
             document.getElementById('eighth').disabled=true;
+            o.play();
             flag=1;
         }
      }
@@ -415,6 +431,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('ninth').value='X';
             document.getElementById('ninth').disabled=true;
+            x.play();
             flag=0;
         }
         else
@@ -425,6 +442,7 @@ if(b1==='X' && b2==='X'&& b3==='X' ){
              document.getElementById("para").innerText="Player X turn";}
             document.getElementById('ninth').value='O';
             document.getElementById('ninth').disabled=true;
+            o.play();
             flag=1;
         }
      }
